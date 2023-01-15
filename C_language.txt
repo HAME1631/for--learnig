@@ -1,0 +1,14 @@
+hello.cファイル
+
+#include <stdio.h>
+
+int main(void)
+{
+        printf("hello, world\n");
+}
+
+プログラム内解説
+#include<stdio.h>はプログラム内で使われる関数をインポートしている
+
+\（バックスラッシュ）はいわば新しい行に移動させるための表記法である。
+もしバックスラッシュがなければ出力がへhello world$になる。
